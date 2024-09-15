@@ -1,4 +1,4 @@
-/* Paleta de colores tana */
+
 :root {
     --primary-color: #0f154e;
     --secondary-color: #65b162;
@@ -190,39 +190,6 @@ h1, h2 {
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background: 
-     linear-gradient(
-       to left,
-       red 0, 
-       red 33.3%,
-       white 33.3%, 
-       white 66.6%, 
-       green 66.6%, 
-       green ) top no-repeat,
-     linear-gradient(
-       to right,
-       red 0, 
-       red 33.3%,
-       white 33.3%, 
-       white 66.6%, 
-       green 66.6%, 
-       green ) bottom no-repeat,
-     linear-gradient(
-       to top,
-       red 0, 
-       red 33.3%,
-       white 33.3%, 
-       white 66.6%, 
-       green 66.6%, 
-       green ) left no-repeat,
-     linear-gradient(
-       to bottom,
-       red 0, 
-       red 33.3%,
-       white 33.3%, 
-       white 66.6%, 
-       green 66.6%, 
-       green ) right no-repeat;
     background-size: 100% 3px, 100% 3px, 3px 100%, 3px 100%;
 }
 
